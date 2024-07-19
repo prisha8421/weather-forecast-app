@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <div class="card">
+        <div class="one">
+            <h1>Check the weather real-time!!</h1><br>
+            <form class="form" method="POST" action="http://localhost:5100/weather">
+                <label for="city">Enter your city:</label>
+                <input type="text" id="city" name="city" required><br><br>
+                <input type="submit">
+            </form>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
